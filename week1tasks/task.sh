@@ -1,1 +1,1 @@
-touch "$(date)".txt
+touch "$(Date)".txt
