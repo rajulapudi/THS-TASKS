@@ -1,1 +1,1 @@
-echo "$(date)" >>log.txt
+touch "$(date)".txt
