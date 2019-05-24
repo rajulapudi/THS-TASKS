@@ -13,12 +13,16 @@ console.log("the result is" + subwithoutminus);*/
 
 /* max remainder can be a-1*/
 
-let a = 44;/*enter a small num*/
-let b = 98;/*enter a larger num*/
+var a = 44;
+var b = 98;
 
-let c = b-a;
+var c = b - a;
 
-for (x=c; x<=b; x++){
-    if (x/a == 0){
-        console.log("result is " + b-x);
-    }}
+for (let i = c; i <= b; i++) {
+    if (i / a == 0) {
+        console.log(b - i);
+    } else {
+        continue;
+    }
+
+}
