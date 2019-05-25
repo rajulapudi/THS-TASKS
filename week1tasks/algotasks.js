@@ -13,7 +13,7 @@ console.log("the result is" + subwithoutminus);*/
 
 /* max remainder can be a-1*/
 
-var a = 44;
+/*var a = 44;
 var b = 98;
 
 var c = b - a;
@@ -25,4 +25,7 @@ for (let i = c; i <= b; i++) {
         continue;
     }
 
-}
+}*/
+
+
+
