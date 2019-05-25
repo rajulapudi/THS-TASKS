@@ -29,8 +29,9 @@ ggg[3] - is ok*/
 
 var epic = {
     pranee : {age:30, country:"india"},
-    hobby : [ "sleep", "read", "code"],
-    duty : function(){
+         hobby : [ "sleep", "read", "code"],
+    duty : function()
+    {
         console.log("this is a function in object")
     }
 }
