@@ -80,3 +80,68 @@ function primearray (N){
 }
 */
 
+/*for finding remainder*/
+
+var c = 0;
+var a = 188;
+var b = 4;
+for (let i =1; i<a;i++){
+    c=a-i*b;
+    if(c>=b){
+        continue;
+    }else {
+        console.log(c);
+        bre
+
+
+
+
+/*find GCD*/
+
+        let a = 100;
+        let b = 75;
+
+        let c = a%b;
+
+        if(c==0){console.log(b);}
+
+        else{
+            let d = b%c;
+            if (d==0){console.log(c);}
+            else {
+                let e = c%d;
+                if (e==0) {console.log(d);}
+            }
+        }
+
+
+let a = 100;
+let b = 75;
+
+c = a%b;
+
+let d = 0;
+if(c>0){
+    d=b%c;
+    b=c;
+}
+let f = d%c
+if(f==0){
+    console.log(c);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+)
