@@ -82,17 +82,17 @@ function primearray (N){
 
 /*for finding remainder*/
 
-var c = 0;
-var a = 188;
-var b = 4;
+/*var c = 0;
+var a = 188;//larger num
+var b = 4;//smaller num
 for (let i =1; i<a;i++){
     c=a-i*b;
     if(c>=b){
         continue;
     }else {
         console.log(c);
-        bre
-
+        break;}
+}*/
 
 
 
