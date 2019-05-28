@@ -4,40 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-<!--    <link rel="stylesheet" href="index.css">-->
-    <style>
-        .rectangle {
-            height: 1000px;
-            width: 1618px;
-            background-color: #555;
-        }
-    </style>
-        <style>
-        .square1 {
-            height: 618px;
-            width: 1000px;
-            background-color: #fff;
-        }
-    </style>
-            <style>
-        .square2 {
-            height: 618px;
-            width: 618px;
-            background-color: #fff;
-        }
-    </style>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+
+
 </head>
 
-<body>
-    <div class="rectangle">
-        <div class="square1">
-            <div class="square2">
-                <div class="square3">
-
-                </div>
-            </div>
-        </div>
+<body style="background-color:black">
+    <div class="rectangle" id="rect">
+        <div class="square" id="square0"></div>
+        <div class="square" id="square1"></div>
+        <div class="square" id="square2"></div>
+        <div class="square" id="square3"></div>
+        <div class="square" id="square4"></div>
+        <div class="square" id="square5"></div>
+        <div class="square" id="square6"></div>
     </div>
+    <button id="b1" onclick="randomize()">Click Me!</button>
 </body>
 
 </html>
