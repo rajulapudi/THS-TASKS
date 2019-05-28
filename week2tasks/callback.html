@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<script>
+       function waitThreeSeconds() {
+            var ms = 4000 + new Date().getTime();
+            while (new Date() < ms){}
+            console.log('finished function');
+        }
+
+    function clickHandler() {
+        console.log('click event!');
+    }
+
+// listen for the click event
+    document.addEventListener('click', clickHandler);// -----This is given to Event Handlers which are available in browser //for handling the events Asynchronusly.. so the compiler moves to the next line
+
+
+
+    waitThreeSeconds();// Here the function completion has to completed before the JS compiler can move to next line. So it is Synchronus - All JS is Synchronus.
+
+
+    console.log('finished execution');
+
+</script>
+<body>
+        <h1> Hello world !</h1>
+</body>
+</html>
+Collapse
+
+
+
+Message input
+
+
+Message #general
