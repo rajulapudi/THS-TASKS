@@ -48,6 +48,14 @@ window.onload = function() {
                     document.getElementById("bar4").style.background="white";
                     document.getElementById("bar5").style.background="red";
                     
+                }else if (battery.level >= 0.01){
+                    document.getElementById("bar0").style.background="white";
+                    document.getElementById("bar1").style.background="white";
+                    document.getElementById("bar2").style.background="white";
+                    document.getElementById("bar3").style.background="white";
+                    document.getElementById("bar4").style.background="white";
+                    document.getElementById("bar5").style.background="red";
+                    
                 }
             }
 
