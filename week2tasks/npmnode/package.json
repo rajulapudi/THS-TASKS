@@ -1,0 +1,16 @@
+{
+  "name": "npmnode",
+  "version": "1.0.0",
+  "description": "nodepractice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "npm"
+  ],
+  "author": "pranee",
+  "license": "ISC",
+    "dependencies" : {}
+}
