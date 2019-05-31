@@ -96,8 +96,8 @@ for (let i =1; i<a;i++){
 
 
 
-/*find GCD*/
-
+/*----------------------------------------------------find GCD*/
+/*
         let a = 100;
         let b = 75;
 
@@ -128,20 +128,55 @@ if(c>0){
 let f = d%c
 if(f==0){
     console.log(c);
+}*/
+
+
+
+
+
+
+/*---------------------------------------------finding *LCD***/
+
+
+/*function lcm(){
+    var x = prompt("Enter a number");
+    var y = prompt("Enter a number");
+    var greater = 0;*/
+
+/*    if (x>y){greater==x};
+    else {greater==y};
+        */
+
+var a = [3,4,5,6,10,7,8,9]
+var greater = a[0];
+
+function findGreat(){
+for (let i =1; i<a.length;i++){
+    if (greater>a[i]){
+        continue;
+    }else {
+        greater=a[i];
+    }
+}}
+console.log(greater)
+
+for  (let i =1; i<array.length;i++){
+
+function findlcm()
+    while (greater <= maxNum) {
+        for(let i=0;i<array.length;i++){
+            if (greater % array[i]== 0)
+        }
+        if ((greater % a[0] == 0) && (greater % a[1] == 0)) {
+            lcm = greater
+            break;
+        } else {
+            greater += 1
+        }
+    };
+    return greater;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-)
+console.log(greater);

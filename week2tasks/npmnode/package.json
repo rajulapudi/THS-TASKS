@@ -4,7 +4,12 @@
   "description": "nodepractice",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node factorial.js",
+      "fibo":"node fibonnaci.js",
+      "facto":"node factorial.js",
+      "arrhel":"arrayhelperMethods.js",
+    "oops":"node OOPS.js"
+
   },
   "keywords": [
     "node",
