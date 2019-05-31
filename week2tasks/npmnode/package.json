@@ -4,12 +4,11 @@
   "description": "nodepractice",
   "main": "index.js",
   "scripts": {
-    "start": "node factorial.js",
-      "fibo":"node fibonnaci.js",
-      "facto":"node factorial.js",
-      "arrhel":"arrayhelperMethods.js",
-    "oops":"node OOPS.js"
-
+    "start": "nodemon index.js",
+    "fibo": "node fibonnaci.js",
+    "facto": "node factorial.js",
+    "arrhel": "arrayhelperMethods.js",
+    "oops": "node OOPS.js"
   },
   "keywords": [
     "node",
@@ -18,6 +17,7 @@
   "author": "pranee",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "readline-sync": "^1.4.9"
   }
 }
