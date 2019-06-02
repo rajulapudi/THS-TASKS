@@ -25,8 +25,9 @@ function fibo(maxN) {
 
     if (initial.length >= maxN) {
         return;
+    } else {
+        fibo(maxN);
     }
-    else {fibo(maxN);}
 }
 fibo(maxN);
 console.log(initial);
