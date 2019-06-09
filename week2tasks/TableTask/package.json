@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "code1": "bash import.sh",
+    "code2": "nodemon server.js",
+    "start": "npm run code1 && npm run code2"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "mongo-express": "^0.52.2"
+    "mongo-express": "^0.52.2",
+    "serve-index": "^1.9.1"
   }
 }

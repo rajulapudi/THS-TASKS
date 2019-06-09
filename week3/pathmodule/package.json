@@ -1,0 +1,12 @@
+{
+  "name": "pathmodule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "abc.js",
+  "scripts": {
+    "start": "nodemon abc.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
