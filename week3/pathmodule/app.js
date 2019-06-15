@@ -74,18 +74,18 @@ console.log(process.env.PATH.split(path.delimiter)); */
 let dirBuf = Buffer.from(directory) */
 
 function abc(dir){
-let fof = fs.readdirSync('./');
+let fof = fs.readdirSync('/Users/preeti/Desktop');
 /* fof is an array of folders & files in root - we need to parse each of them*/
 fof.forEach(element => {
-    if (fs.stat(element).isDirectory==true && fs.stat(element)!== dir){
-        abc(element);
-    }else if (fs.stat(element).isDirectory==true && fs.stat(element)== dir){
+    if (fs.statSync(element).isDirectory==true && fs.statSync(element)!== dir){
+        return abc(element);
+    }else if (fs.statSync(element).isDirectory==true && fs.statSync(element)== dir){
         return path.dirname(element)
     }else console.log('folder not found')
 });}
-
-fs.stat('app.js', (err, stats)=> {
+abc('expproj')
+/* fs.stat('app.js', (err, stats)=> {
     if (err) {
        return console.error(err);
     }
-    console.log(stats.isDirectory())});
+    console.log(stats.isDirectory())}); */
